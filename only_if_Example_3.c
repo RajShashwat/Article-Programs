@@ -1,5 +1,5 @@
 //Created by Shashwat Raj
-//A program to check if the entered no is even
+//A program to convert odd no to 0
 #include<stdio.h>
 void main()
 {
@@ -7,8 +7,6 @@ void main()
   printf("Enter a number: ");
   scanf("%d", &num);
   if(num % 2 == 1)
-  {
     num=0;
-  }
   printf("Number: %d",num);
 }
