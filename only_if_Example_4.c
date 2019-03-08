@@ -12,5 +12,5 @@ void main()
       num1=num2;
       num2=temp;
   }
-  print("%d/t%d",num1,num2);
+  printf("%d/t%d",num1,num2);
 }
